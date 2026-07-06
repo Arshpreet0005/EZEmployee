@@ -14,7 +14,7 @@ EZEmployee is an AI-powered HR dashboard built with Streamlit. It provides emplo
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/EZEmployee.git
+git clone https://github.com/Arshpreet0005/EZEmployee.git
 cd EZEmployee/EZEmployee
 ```
 
