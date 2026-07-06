@@ -1,0 +1,1128 @@
+
+
+===== PAGE 1 =====
+ 
+ 
+ 
+DelightHub
+ 
+ 
+SE  Lab  Project  Date:-5,  May  2026  
+ 
+Submitted   By:                                                                           Submitted   To:  
+Vivek  Kumar  Singh(23103063)                                                         Dr.  Amarjeet  Prajapati  Ritik   Sharma(23103080)                                                                   Mrs.  Richa  Kushwaha  Prish  Keshari(23103082)    Akshit  Gupta(23103077)  Lakshita  Goyal(23103062)                                                         
+ 
+
+
+
+===== PAGE 2 =====
+    INTRODUCTION   Bakezy  is  a  comprehensive  web-based  platform  designed  to  showcase  and  manage  the  products  and  
+services
+ 
+of
+ 
+a
+ 
+bakery
+ 
+and
+ 
+a
+ 
+floral
+ 
+shop.
+ 
+The
+ 
+system
+ 
+provides
+ 
+an
+ 
+interactive
+ 
+and
+ 
+user-friendly
+ 
+interface
+ 
+that
+ 
+allows
+ 
+customers
+ 
+to
+ 
+browse,
+ 
+select,
+ 
+and
+ 
+purchase
+ 
+bakery
+ 
+items
+ 
+and
+ 
+floral
+ 
+arrangements
+ 
+online.
+ The  platform  is  developed  using  HTML  and  CSS  for  frontend  design,  PHP  for  backend  processing,  
+and
+ 
+MySQL
+ 
+(MariaDB)
+ 
+for
+ 
+database
+ 
+management.
+ 
+It
+ 
+operates
+ 
+on
+ 
+a
+ 
+local
+ 
+server
+ 
+environment
+ 
+using
+ 
+XAMPP,
+ 
+enabling
+ 
+seamless
+ 
+communication
+ 
+between
+ 
+the
+ 
+application
+ 
+and
+ 
+the
+ 
+database.
+ The  system  follows  a  modular  design  approach,  making  it  easy  to  maintain,  scalable,  and  efficient  
+for
+ 
+both
+ 
+users
+ 
+and
+ 
+administrators
+.
+  Key  Features:   1.  User  Registration  and  Authentication   Bakezy  provides  secure  user  registration  and  login  functionality.  Users  can  create  accounts,  
+log
+ 
+in,
+ 
+and
+ 
+manage
+ 
+their
+ 
+profiles
+ 
+using
+ 
+session-based
+ 
+authentication
+ 
+in
+ 
+PHP.
+  2.  Product  Catalog  The  platform  displays  a  wide  variety  of  bakery  products  and  floral  arrangements  with  detailed  
+descriptions,
+ 
+prices,
+ 
+and
+ 
+images,
+ 
+allowing
+ 
+users
+ 
+to
+ 
+easily
+ 
+explore
+ 
+available
+ 
+items.
+  3.  Shopping  Cart  Users  can  add  products  to  their  cart,  update  quantities,  and  remove  items  as  needed.  The  cart  
+helps
+ 
+manage
+ 
+selected
+ 
+items
+ 
+before
+ 
+checkout.
+  4.  Wishlist   Bakezy  allows  users  to  save  products  for  later  purchase.  Items  from  the  wishlist  can  be  
+directly
+ 
+moved
+ 
+to
+ 
+the
+ 
+shopping
+ 
+cart.
+  5.  Checkout  and  Order  Processing  The  system  enables  users  to  place  orders  by  providing  delivery  details.  It  processes  the  order  
+and
+ 
+generates
+ 
+confirmation
+ 
+for
+ 
+successful
+ 
+transactions.
+  6.  Address  Management  Users  can  add  and  manage  multiple  delivery  addresses,  which  can  be  selected  during  
+checkout.
+  7.  User  Dashboard  A  personalized  dashboard  is  provided  where  users  can  view  their  account  details,  orders,  and  
+activity.
+ 
+ 
+
+
+===== PAGE 3 =====
+  8.  Admin  Module  An  admin  panel  is  included  to  manage  products,  users,  and  overall  system  operations  
+effectively.
+          10.  Reviews  and  Ratings  (Extendable  Feature)            Bakezy  can  support  customer  reviews  and  ratings,  allowing  users  to  share  feedback  .                                       Problem  Statement   Many  traditional  bakeries  and  floral  shops  lack  a  strong  online  presence,  which  limits  their  reach  
+and
+ 
+reduces
+ 
+customer
+ 
+convenience.
+ 
+Customers
+ 
+often
+ 
+face
+ 
+difficulties
+ 
+in
+ 
+browsing
+ 
+products
+ 
+and
+ 
+placing
+ 
+orders
+ 
+without
+ 
+visiting
+ 
+the
+ 
+store
+ 
+physically.
+  Bakezy  addresses  this  problem  by  providing  a  user-friendly  e-commerce  platform  that  enables  
+customers
+ 
+to
+ 
+browse
+ 
+products,
+ 
+place
+ 
+orders,
+ 
+and
+ 
+manage
+ 
+their
+ 
+purchases
+ 
+online.
+ The  system  follows  key  Software  Engineering  principles ,  including  modularity,  maintainability,  
+scalability,
+ 
+and
+ 
+security.
+ 
+It
+ 
+focuses
+ 
+on
+ 
+delivering
+ 
+reliable
+ 
+functionality,
+ 
+efficient
+ 
+performance,
+ 
+and
+ 
+a
+ 
+seamless
+ 
+user
+ 
+experience.
+   
+        
+ 
+
+
+===== PAGE 4 =====
+ UML  DIAGRAMS  
+ 
+ 1)  Class  Diagram  
+ 
+     
+ 
+
+
+
+===== PAGE 5 =====
+ 2)  Use  Case  Diagram  
+ 
+     
+ 
+
+
+
+===== PAGE 6 =====
+ 3)  Activity  Diagram  
+ 
+            
+ 
+
+
+
+===== PAGE 7 =====
+ 4)  Sequence  Diagram  
+  
+  
+   
+       
+
+
+
+===== PAGE 8 =====
+ Software  Requirements  Specification  (SRS)  for   Bakezy  E-commerce  System  Version:  1.0  
+Prepared
+ 
+by:
+  
+Bakezy
+ 
+Development
+ 
+Team
+ 
+Organization:
+ 
+Jaypee
+ 
+Institute
+ 
+of
+ 
+Information
+ 
+Technology
+ 
+Date:
+ 
+MAY
+ 
+4,
+ 
+2026
+  Table  of  Contents  1.  Introduction   2.  Overall  Description   3.  System  Features   4.  External  Interface  Requirements   5.  Non-Functional  Requirements   6.  Other  Requirements   1 .  Introduction    1.1  Purpose  This  Software  Requirements  Specification  (SRS)  document  describes  the  functional  and  
+non-functional
+ 
+requirements
+ 
+of
+ 
+the
+ 
+ 
+Bakezy
+ 
+E-commerce
+ 
+System
+.
+ 
+It
+ 
+defines
+ 
+how
+ 
+the
+ 
+system
+ 
+will
+ 
+operate
+ 
+and
+ 
+serves
+ 
+as
+ 
+a
+ 
+reference
+ 
+for
+ 
+developers,
+ 
+testers,
+ 
+and
+ 
+stakeholders
+ 
+during
+ 
+development
+ 
+and
+ 
+evaluation
+.
+   1.2  Document  Conventions  ●  “Shall”  →  Mandatory  requirement   ●  “Should”  →  Recommended  requirement   ●  “May”  →  Optional  feature   Requirements  are  organized  in  a  structured  and  hierarchical  manner  for  clarity.   1.3  Intended  Audience  This  document  is  intended  for:  ●  Developers  →  To  implement  system  functionality   ●  Testers  →  To  design  and  execute  test  cases   ●  Project  Managers  →  To  plan  and  track  development   ●  Stakeholders  →  To  understand  system  capabilities    1.4  Project  Scope   Bakezy  is  a  web-based  e-commerce  system  designed  for  a  bakery  and  floral  shop.  It  allows  users  to  
+browse
+ 
+products,
+ 
+add
+ 
+items
+ 
+to
+ 
+cart
+ 
+or
+ 
+wishlist,
+ 
+and
+ 
+place
+ 
+orders
+ 
+online.
+ The  system  includes:  ●  User  authentication   ●  Product  browsing   ●  Cart  and  wishlist  management   ●  Order  processing   
+ 
+
+
+===== PAGE 9 =====
+ ●  Address  management   ●  Admin  control  panel   Technologies  used:  ●  Frontend  →  HTML,  CSS   ●  Backend  →  PHP   ●  Database  →  MySQL  (MariaDB)   ●  Server  →  XAMPP    1.5  References  ●  IEEE  SRS  Standard   ●  PHP  Documentation   ●  MySQL  Documentation     2.  Overall  Description  2.1  Product  Perspective   Bakezy  is  a  standalone  web  application  that  digitizes  the  traditional  bakery  and  floral  shop  
+system.
+ 
+It
+ 
+interacts
+ 
+with
+ 
+a
+ 
+MySQL
+ 
+database
+ 
+to
+ 
+store
+ 
+and
+ 
+retrieve
+ 
+user
+ 
+and
+ 
+order
+ 
+data.
+  2.2  Product  Features  The  system  provides  the  following  key  features:  ●  User  account  management   ●  Product  catalog  display   ●  Shopping  cart  and  wishlist   ●  Order  placement   ●  Address  management   ●  Admin  functionalities    2.3  User  Classes  and  Characteristics   Customers  ●  Basic  technical  knowledge   ●  Can  browse  products,  manage  cart,  and  place  orders     Admin  ●  Moderate  technical  knowledge   ●  Manages  products,  users,  and  system  data    2.4  Operating  Environment  ●  Web  Server  →  Apache  (via  XAMPP)   ●  Database  →  MySQL   ●  Languages  →  PHP,  HTML,  CSS   ●  Browsers  →  Chrome,  Edge,  Firefox    2.5  Design  and  Implementation  Constraints  ●  Must  use  PHP  and  MySQL   ●  Runs  on  local  server   ●  Requires  proper  database  setup   
+ 
+
+
+===== PAGE 10 =====
+ ●  Must  ensure  secure  handling  of  user  data     2.6  User  Documentation  ●  Basic  usage  instructions   ●  Admin  usage  guide   ●  Setup  instructions    2.7  Assumptions  and  Dependencies  ●  Users  have  access  to  a  web  browser   ●  Server  environment  is  configured   ●  Database  is  initialized  using  schema.sql    3.  System  Features   3.1  User  Registration  and  Authentication  3.1.1  Description  and  Priority  This  feature  allows  users  to  create  accounts,  log  in,  and  manage  their  profiles.  It  ensures  secure  
+access
+ 
+to
+ 
+personalized
+ 
+features.
+ 
+Priority:
+ 
+High
+  3.1.2  Stimulus  /  Response  Sequences  ●  User  submits  registration  form  →  System  validates  input  and  creates  account   ●  User  enters  login  credentials  →  System  authenticates  and  grants  access   ●  User  logs  out  →  Session  is  destroyed    3.1.3  Functional  Requirements  ●  REQ-1.1:  The  system  shall  allow  users  to  register  with  basic  details  (name,  email,  
+password).
+ 
+ ●  REQ-1.2:  The  system  shall  validate  user  input  during  registration  and  login.   ●  REQ-1.3:  The  system  shall  allow  users  to  log  in  using  credentials.   ●  REQ-1.4:  The  system  shall  maintain  user  sessions  after  login.   ●  REQ-1.5:  The  system  shall  allow  users  to  log  out  securely.    3.2  Product  Catalog  3.2.1  Description  and  Priority  This  feature  displays  bakery  and  floral  products  with  details.  
+Priority:
+ 
+High
+  3.2.2  Stimulus  /  Response  Sequences  ●  User  opens  product  page  →  System  displays  products   ●  User  selects  a  product  →  System  shows  product  details    3.2.3  Functional  Requirements  ●  REQ-2.1:  The  system  shall  display  products  with  images,  names,  and  prices.   
+ 
+
+
+===== PAGE 11 =====
+ ●  REQ-2.2:  The  system  shall  allow  users  to  view  product  details.   ●  REQ-2.3:  The  system  shall  support  basic  search  functionality.    3.3  Shopping  Cart  3.3.1  Description  and  Priority  Allows  users  to  manage  selected  products  before  purchase.  
+Priority:
+ 
+High
+  3.3.2  Stimulus  /  Response  Sequences  ●  User  adds  item  →  Cart  updates   ●  User  removes  item  →  Cart  updates   ●  User  changes  quantity  →  Total  updates    3.3.3  Functional  Requirements  ●  REQ-3.1:  The  system  shall  allow  users  to  add  products  to  the  cart.   ●  REQ-3.2:  The  system  shall  display  cart  items.   ●  REQ-3.3:  The  system  shall  allow  updating  quantities.   ●  REQ-3.4:  The  system  shall  allow  removing  items.   ●  REQ-3.5:  The  system  shall  calculate  total  price.    3.4  Wishlist  3.4.1  Description  and  Priority  Allows  users  to  save  products  for  future  purchase.  
+Priority:
+ 
+Medium
+  3.4.2  Functional  Requirements  ●  REQ-4.1:  The  system  shall  allow  users  to  add  items  to  wishlist.   ●  REQ-4.2:  The  system  shall  allow  users  to  view  wishlist  items.   ●  REQ-4.3:  The  system  shall  allow  moving  items  from  wishlist  to  cart.    3.5  Order  Processing  3.5.1  Description  and  Priority  Handles  checkout  and  order  placement.  
+Priority:
+ 
+High
+  3.5.2  Stimulus  /  Response  Sequences  ●  User  proceeds  to  checkout  →  System  collects  details   ●  User  confirms  order  →  System  stores  order    3.5.3  Functional  Requirements  ●  REQ-5.1:  The  system  shall  allow  users  to  place  orders.   ●  REQ-5.2:  The  system  shall  store  order  details  in  the  database.   ●  REQ-5.3:  The  system  shall  display  order  confirmation.   ●  REQ-5.4:  The  system  shall  allow  users  to  view  order  history.    
+ 
+
+
+===== PAGE 12 =====
+ 3.6  Address  Management  3.6.1  Description  and  Priority  Manages  delivery  addresses.  
+Priority:
+ 
+Medium
+  3.6.2  Functional  Requirements  ●  REQ-6.1:  The  system  shall  allow  users  to  add  addresses.   ●  REQ-6.2:  The  system  shall  allow  editing  addresses.   ●  REQ-6.3:  The  system  shall  use  address  during  checkout.    3.7  Admin  Module  3.7.1  Description  and  Priority  Allows  admin  to  manage  system  data.  
+Priority:
+ 
+Medium
+  3.7.2  Functional  Requirements  ●  REQ-7.1:  The  system  shall  allow  admin  to  manage  products.   ●  REQ-7.2:  The  system  shall  allow  admin  to  view  users.   ●  REQ-7.3:  The  system  shall  allow  admin  to  monitor  orders.     4.  External  Interface  Requirements   4.1  User  Interfaces  The  system  provides  the  following  interfaces:  ●  Homepage  (code.php)   ●  Product  Page  (product.php)   ●  Cart  Page  (cart.php)   ●  Checkout  Page  (checkout.php)   ●  Dashboard  (dashboard.php)   ●  Admin  Panel  (admin.php)   All  interfaces  are  designed  using  HTML  and  CSS  with  a  responsive  layout.   4.2  Hardware  Interfaces  No  special  hardware  is  required.  The  system  runs  on  standard  computers  and  browsers.   4.3  Software  Interfaces  The  system  interacts  with:  ●  PHP  for  backend  processing   ●  MySQL  database  for  data  storage   ●  Managed  locally  using  XAMPP   ●  Database  viewing  via  phpMyAdmin    4.4  Communication  Interfaces  ●  Uses  HTTP  protocol   ●  Runs  on  local  server   
+ 
+
+
+===== PAGE 13 =====
+ ●  No  external  APIs  used    5.  Non-Functional  Requirements   5.1  Performance  Requirements  ●  Fast  loading  pages   ●  Efficient  database  operations    5.2  Security  Requirements  ●  Input  validation   ●  Prevention  of  SQL  injection   ●  Session  handling  for  authentication    5.3  Usability  ●  Simple  and  user-friendly  design   ●  Easy  navigation    5.4  Maintainability  ●  Modular  structure   ●  Easy  to  update  code    5.5  Reliability  ●  System  performs  operations  consistently   ●  Data  stored  accurately     6.  Other  Requirements   6.1  Database  Requirements  The  system  uses  a  MySQL  database  with  tables  such  as:  ●  users   ●  products   ●  cart   ●  orders   ●  addresses     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+===== PAGE 14 =====
+ Appendix  C:  Issues  List  ID  Description  Status  Priority  Notes  
+1  
+Payment  gateway  integration  not  implemented  
+Open  Medium  
+Current  system  supports  basic  order  placement  without  online  payment  
+2  
+Product  image  storage  handling  
+Resolved  Low  
+Images  are  stored  locally  in  the  project  /images  folder  
+3  Customer  notification  system  Open  Low  
+No  email  or  notification  system  implemented  currently  
+4  
+Analytics  and  reporting  features  
+Open  Low  Not  implemented  in  current  version  
+5  
+Shipping  and  delivery  calculation  rules  
+Open  Medium  
+Basic  order  system  exists,  but  no  dynamic  shipping  calculation  
+  Revision  History  
+Name  Date  Reason  for  Changes  Version  
+ Bakezy  Team  March  18,  2025  Initial  version  of  SRS  document  1.0                   
+ 
+
+
+===== PAGE 15 =====
+ Code  Refactoring  1.  process_data.php  Before  Refactoring  Directly  mixes  database,  session,  and  business  logic.  Repeats  similar  code  for  each  cart  item.  No  input  validation  or  error  handling  for  DB  queries.  No  modularization.  Php  $cartData  =  json_decode($data,  true);  $conn  =  mysqli_connect("localhost:3308","root","","manandb");  if($conn)  {      echo  "connection  successful";  }  else  {      die("error".mysqli_connect_error());  }  if  ($cartData  ==  NULL)  {      file_put_contents('error_log.txt',  json_last_error_msg());      die('Error  decoding  JSON  data.');}  foreach($cartData  as  $item)  {      $username  =  $_SESSION['USER'];      $wr  =  $item['chickentikkacartcnt'];      $_SESSION['whiteroses']  =  $wr;      //  ...  repeated  for  each  item  ...      $total  =  ($wr  *  $_SESSION['whiterosesprice'])  +  ...;      $totalwithGST  =  $total  +  0.18*($total);      $_SESSION['totalwithGST']  =  $totalwithGST;      $q  =  "UPDATE  cart  SET  white_roses=$wr,  ...  WHERE  username='$username'";      mysqli_query($conn,$q);      echo  "data  inserted";      echo  'Data  received  and  processed  on  the  server.';  }  ?>  
+ 
+
+
+===== PAGE 16 =====
+ After  Refactoring  Separates  concerns:  business  logic,  session  management,  and  DB  interaction.  Uses  functions  for  repeated  logic.  Adds  error  handling  and  input  validation.  Sanitizes  DB  inputs  to  prevent  SQL  injection.   php  <?php  function  updateCartSession($item)  {      $map  =  [          'chickentikkacartcnt'  =>  'whiteroses',          'cholekulchecartcnt'  =>  'caramel',          'pavbhajicartcnt'  =>  'bliss',          'pizzacartcnt'  =>  'redrose',          'burgercartcnt'  =>  'sweet',          'butterchickencartcnt'  =>  'pink'      ];      foreach  ($map  as  $cartKey  =>  $sessionKey)  {          $_SESSION[$sessionKey]  =  isset($item[$cartKey])  ?  (int)$item[$cartKey]  :  0;      }  }   function  calculateTotal()  {      $items  =  ['whiteroses',  'caramel',  'bliss',  'redrose',  'sweet',  'pink'];      $total  =  0;      foreach  ($items  as  $item)  {          $qty  =  $_SESSION[$item]  ??  0;          $price  =  $_SESSION["{$item}price"]  ??  0;          $total  +=  $qty  *  $price;      }      return  $total;  }  
+ 
+
+
+===== PAGE 17 =====
+  $cartData  =  json_decode($data,  true);  if  ($cartData  ==  NULL)  {      file_put_contents('error_log.txt',  json_last_error_msg());      die('Error  decoding  JSON  data.');  }  $conn  =  mysqli_connect("localhost:3308","root","","manandb");  if  (!$conn)  {      die("error".mysqli_connect_error());  }  foreach($cartData  as  $item)  {      updateCartSession($item);      $total  =  calculateTotal();      $totalwithGST  =  $total  *  1.18;      $_SESSION['totalwithGST']  =  $totalwithGST;      $username  =  mysqli_real_escape_string($conn,  $_SESSION['USER']);      $q  =  "UPDATE  cart  SET  white_roses={$_SESSION['whiteroses']},  
+caramel_ganache={$_SESSION['caramel']},
+ 
+bliss_cake={$_SESSION['bliss']},
+ 
+red_rose={$_SESSION['redrose']},
+ 
+sweet_gourmet={$_SESSION['sweet']},
+ 
+pinky_cake={$_SESSION['pink']},
+ 
+totalwithGST=$totalwithGST
+ 
+WHERE
+ 
+username='$username'";
+     if  (!mysqli_query($conn,  $q))  {          file_put_contents('error_log.txt',  mysqli_error($conn));          die('Database  update  failed.');      }  }  echo  "Data  inserted  and  processed  successfully.";  ?>       
+ 
+
+
+===== PAGE 18 =====
+ 2.  cart.php  Before  Refactoring  Mixes  HTML  and  PHP  logic.  Repeats  code  for  each  item.  No  separation  of  display  and  calculation  logic.   php  CART  IS  EMPTY  !";  exit();  }  ?>  HELLO  !  Here  is  your  Bill  :  ITEM  QUANTITY  PRICE  $_SESSION['whiterosesprice'],  'caramel'  =>  $_SESSION['caramelganacheprice'],  ...  foreach($menuItems  as  $item  =>  $price)  {      $quantity  =  isset($_SESSION[strtolower(str_replace('  ',  '',  $item))])  ?  
+$_SESSION[strtolower(str_replace('
+ 
+',
+ 
+'',
+ 
+$item))]
+ 
+:
+ 
+0;
+     if($quantity  >  0  ){          echo  "<tr><td>{$item}</td><td>{$quantity}</td><td>{$alltotal}</td></tr>";      }  }  ?>  Total  MRP  TOTAL  Amount  (18%  GST  included)  After  Refactoring  Moves  calculation  logic  to  a  function.   Separates  HTML  from  PHP  as  much  as  possible.  Improves  readability  and  maintainability.   php  <?php  
+ 
+
+
+===== PAGE 19 =====
+ function  getCartItems()  {      return  [          'White  Roses'  =>  $_SESSION['whiterosesprice'],          'Caramel  Ganache'  =>  $_SESSION['caramelganacheprice'],          'Bliss  Cake'  =>  $_SESSION['blisscakeprice'],          'Red  Rose'  =>  $_SESSION['redroseprice'],          'Sweet  Gourmet'  =>  $_SESSION['sweetgourmetprice'],          'Pinky  Cake'  =>  $_SESSION['pinkyprice']      ];  }   function  getItemQuantity($item)  {      $key  =  strtolower(str_replace('  ',  '',  $item));      return  $_SESSION[$key]  ??  0;  }   $menuItems  =  getCartItems();  $total  =  0;  foreach  ($menuItems  as  $item  =>  $price)  {      $quantity  =  getItemQuantity($item);      if  ($quantity  >  0)  {          $lineTotal  =  $price  *  $quantity;          $total  +=  $lineTotal;          echo  "<tr><td>{$item}</td><td>{$quantity}</td><td>{$lineTotal}</td></tr>";      }  }  $totalWithGST  =  $total  *  1.18;  echo  "<tr><td  colspan='2'>Total  MRP</td><td>{$total}</td></tr>";  echo  "<tr><td  colspan='2'>TOTAL  Amount  (18%  GST  
+included)</td><td>{$totalWithGST}</td></tr>";
+ ?>  3.  final.php  
+ 
+
+
+===== PAGE 20 =====
+ Before  Refactoring  Mixes  business  logic,  DB  queries,  and  shipping  generation.  No  modularization.  No  input  validation  or  error  handling.   php  if($numRows  >  0)  {      $updateQuery  =  "UPDATE  payments  SET  address='$address',  card_type='$cardtype',  
+card_number=$cardnum
+ 
+WHERE
+ 
+username='$username'";
+     mysqli_query($conn,  $updateQuery);  }  else  {      $insertQuery  =  "INSERT  INTO  payments  VALUES  ('$username',  '$address',  '$cardtype',  
+$cardnum)";
+     mysqli_query($conn,  $insertQuery);  }  mysqli_close($conn);  //  Shipping  details  generation  $package_id  =  'PKG-'  .  strtoupper(bin2hex(random_bytes(4)));  $order_id  =  'ORD-'  .  strtoupper(bin2hex(random_bytes(4)));  $tracking_number  =  strtoupper(substr(md5(uniqid(mt_rand(),  true)),  0,  12));  $carriers  =  ['FedEx',  'UPS',  'DHL',  'USPS'];  $carrier  =  $carriers[array_rand($carriers)];  $package_status  =  'Pending';  ?>  ORDER  PLACED!  ...  After  Refactoring  Separates  DB,  business,  and  shipping  logic  into  functions.  Adds  input  validation  and  error  handling.  Sanitizes  DB  inputs.   php  
+ 
+
+
+===== PAGE 21 =====
+ <?php  function  savePayment($conn,  $username,  $address,  $cardtype,  $cardnum)  {      $username  =  mysqli_real_escape_string($conn,  $username);      $address  =  mysqli_real_escape_string($conn,  $address);      $cardtype  =  mysqli_real_escape_string($conn,  $cardtype);      $cardnum  =  (int)$cardnum;      $checkQuery  =  "SELECT  1  FROM  payments  WHERE  username='$username'";      $result  =  mysqli_query($conn,  $checkQuery);      if  (mysqli_num_rows($result)  >  0)  {          $updateQuery  =  "UPDATE  payments  SET  address='$address',  card_type='$cardtype',  
+card_number=$cardnum
+ 
+WHERE
+ 
+username='$username'";
+         mysqli_query($conn,  $updateQuery);      }  else  {          $insertQuery  =  "INSERT  INTO  payments  (username,  address,  card_type,  card_number)  
+VALUES
+ 
+('$username',
+ 
+'$address',
+ 
+'$cardtype',
+ 
+$cardnum)";
+         mysqli_query($conn,  $insertQuery);      }  }   function  generateShippingDetails()  {      $package_id  =  'PKG-'  .  strtoupper(bin2hex(random_bytes(4)));      $order_id  =  'ORD-'  .  strtoupper(bin2hex(random_bytes(4)));      $tracking_number  =  strtoupper(substr(md5(uniqid(mt_rand(),  true)),  0,  12));      $carriers  =  ['FedEx',  'UPS',  'DHL',  'USPS'];      $carrier  =  $carriers[array_rand($carriers)];      $package_status  =  'Pending';      return  compact('package_id',  'order_id',  'tracking_number',  'carrier',  'package_status');  }   //  Usage  $conn  =  mysqli_connect(...);  savePayment($conn,  $username,  $address,  $cardtype,  $cardnum);  
+ 
+
+
+===== PAGE 22 =====
+ mysqli_close($conn);  $shipping  =  generateShippingDetails();  ?>                              
+ 
+
+
+===== PAGE 23 =====
+ Testing  Boundary  Value  Analysis  
+Test  Area  Field  
+Valid  Boundaries  
+Test  Cases  (Boundary  Points)  
+Expected  Behavior  
+Add  to  Cart  Quantity  
+Minimum  =  0  Maximum  =  100  
+•  0  items  •  1  item  •  50  items  •  99  items  •  100  items  
+•  0  →  Allowed  (empty  cart)  •  1–99  →  Accepted  •  100  →  Should  be  rejected  or  show  validation  error  
+Registration  /  Login  
+Username,  Password  
+Length:  Min  =  1,  Max  =  255  
+•  Empty  input  •  1  character  •  200  characters  •  255  characters  •  256  characters  
+•  Empty  →  Rejected  •  1–255  →  Accepted  •  256  →  Rejected  
+Payment  Form  
+Credit  Card  Number  
+Exactly  16  digits  
+•  15  digits  •  16  digits  •  17  digits  
+•  15/17  →  Rejected  •  16  →  Accepted  
+Payment  Form  CVV  Number  Exactly  3  digits  
+•  2  digits  •  3  digits  •  4  digits  
+•  2/4  →  Rejected  •  3  →  Accepted  
+Payment  Card  Type  
+Card  Type  Selection  
+One  option  must  be  selected  
+•  No  selection  •  Valid  option  selected  
+•  No  selection  →  Form  submission  blocked  •  One  selected  →  Accepted  
+Address  Entry  Address  Field  
+Minimum  length  =  1  (reasonable  max  ~255)  
+•  Empty  address  •  1  character  •  Very  long  address  (>255  characters)  
+•  Empty  →  Rejected  •  Valid  length  →  Accepted  •  Too  long  →  Rejected  or  trimmed         
+ 
+
+
+===== PAGE 24 =====
+ Equivalence  class  Testing   
+Input  Field  Valid  Classes  Invalid  Classes  Example  Inputs  Product  Quantity  (Cart)  
+Quantity  between  0–99  
+Quantity  <  0  Quantity  >  99  
+Valid:  1,  10,  50  Invalid:  -1,  1000  
+Username  (Login/Registration)  
+Length  between  1–255  characters  
+Empty  username  More  than  255  characters  
+Valid:  user123  Invalid:  "",  string  with  300  characters  Password  (Login/Registration)  
+Non-empty  password  
+Empty  password  
+Valid:  mypassword  Invalid:  ""  
+Card  Number  Exactly  16  digits  
+Less  than  16  digits  More  than  16  digits  Non-numeric  input  
+Valid:  1234567890123456  Invalid:  123456789012345,  12345678901234567  
+CVV  Exactly  3  digits  
+Less  than  3  digits  More  than  3  digits  Non-numeric  input  
+Valid:  123  Invalid:  12,  1234  
+Card  Type  Selection  One  option  selected  No  option  selected  
+Valid:  Card  type  selected  Invalid:  No  selection  
+Address  Field  
+Non-empty  input  (reasonable  length  ≤  255)  
+Empty  input  
+Valid:  123  Main  Street  Invalid:  ""  
+Session  (Cart  Items)  
+Quantity  initialized  to  0  or  positive  values  
+Negative  values  Improper  session  handling  
+Valid:  0,  2  items  Invalid:  -1  items  
+            
+ 
+
+
+===== PAGE 25 =====
+ Path  Testing   
+Test  Case  ID  
+Description  Expected  Path  /  Behavior  
+TC1  
+Valid  payment  details  for  a  new  user  
+Form  submission  →  Client-side  validation  passes  →  Data  sent  to  server  →  INSERT  query  executed  →  Order  confirmation  page  displayed  
+TC2  
+Valid  payment  details  for  an  existing  user  
+Form  submission  →  Client-side  validation  passes  →  Data  sent  to  server  →  UPDATE  query  executed  →  Order  confirmation  page  displayed  
+TC3  
+Invalid  card  number  (less  than  16  digits)  
+Client-side  validation  fails  →  Form  submission  blocked  →  Error  message  displayed  to  user  
+TC4  
+Invalid  CVV  (not  exactly  3  digits)  
+Client-side  validation  fails  →  Form  submission  blocked  →  Error  message  displayed  to  user  
+TC5  No  card  type  selected  
+Client-side  validation  fails  →  Form  submission  blocked  →  Error  message  displayed  to  user  
+TC6  
+Database  connection  failure  (simulated)  
+Server-side  error  occurs  →  Error  message  logged  →  User-friendly  error  message  displayed  (improvement  required  if  not  implemented)   Data  Flow  Testing  
+Variable  Defined  At  Used  At  /  Purpose  
+$_SESSION['whiteroses'],  ...,  $_SESSION['pink']  
+Initialized  in  session  (e.g.,  payment.php  /  process_data.php)  
+Used  to  store  and  reset  cart  item  quantities  after  payment  
+$conn  
+Database  connection  (mysqli_connect)  
+Used  to  execute  database  queries  (INSERT  /  UPDATE)  
+$username  
+Retrieved  from  $_SESSION['USER']  
+Used  in  database  queries  to  identify  the  logged-in  user  
+$address  
+Retrieved  from  $_SESSION['address']  or  form  input  
+Used  for  storing  delivery  details  and  displaying  confirmation  
+$cardtype  Retrieved  from  $_POST['cc']  
+Used  in  payment-related  database  operations  
+ 
+
+
+===== PAGE 26 =====
+ Variable  Defined  At  Used  At  /  Purpose  
+$cardnum  
+Retrieved  from  $_POST['cardnumber']  
+Used  in  payment  processing  and  database  storage   Levels  of  Testing  1.  Unit  Testing  Test  each  small  function  individually.  Example:  Unit  (Function)  How  to  Test  Expected  Result  
+generatePackageID()  
+Call  the  function  and  check  output  format  and  length  
+Output  should  be  unique,  alphanumeric,  and  follow  format  like  PKG-XXXXXXXX  
+generateOrderID()  
+Call  the  function  and  validate  structure  
+Output  should  be  unique,  alphanumeric,  and  follow  format  like  ORD-XXXXXXXX  
+generateTrackingNumber()  
+Call  function  multiple  times  and  verify  format  
+Output  should  be  unique,  alphanumeric  string  (fixed  length,  e.g.,  10–12  characters)  
+getCarrier()  Call  function  multiple  times  
+Output  should  be  one  of  the  predefined  values  (e.g.,  FedEx,  UPS,  DHL,  Blue  Dart)   Testing  Strategy:  ●  Boundary  cases :  Very  large  order  numbers,  many  calls  at  once  (no  crashes).  ●  Randomness :  Check  it  generates  different  IDs  in  different  calls.    2.  Integration  Testing  Test  how  Shipping  code  fits  with  your  main  application  (payment  →  shipping).  Example:  ●  After  payment  is  confirmed  in  final.php ,  call  the  shipping  functions.  ●  Display  the  generated  Shipping  Details  properly  along  with  Order  Confirmation.  Test  Case  ID  
+Action  Expected  Result  
+ITC1  
+Payment  successful  →  Trigger  shipping  generation  
+Shipping  details  are  generated  and  displayed  (Package  ID,  Order  ID,  Tracking  Number,  Carrier,  Status)  
+ITC2  
+Payment  failed  (if  failure  handling  exists)  
+Shipping  functions  are  not  executed  and  no  shipping  data  is  created  
+ 
+
+
+===== PAGE 27 =====
+ Test  Case  ID  
+Action  Expected  Result  
+ITC3  
+Missing  session  data  (e.g.,  user/order  info  not  set)  
+System  handles  gracefully  →  Displays  error  message  or  prevents  shipping  generation  
+ITC4  
+Multiple  orders  placed  consecutively  
+Each  order  generates  unique  shipping  details  
+ITC5  
+Refresh  confirmation  page  after  order  
+Shipping  details  remain  consistent  (no  duplication  or  regeneration  errors)  3.  System  Testing  Test  entire  system  end-to-end  (simulate  real  user  behavior).  Example  Full  Flow:  1.  User  logs  in   2.  User  adds  bakery  items  to  cart   3.  User  places  an  order  and  enters  payment  details   4.  After  payment:  o  Order  placed  message  shown   o  Shipping  details  generated  and  displayed   5.  User  clicks  "Back  to  Home"   System  Test  Cases:  Test  Case  Action  Expected  
+Normal  Order  Flow  Complete  payment  successfully  
+Order  confirmed  +  Shipping  info  shown  Form  Validation  Failed  Wrong  card  number  No  shipping  info  generated  Database  Connection  Error  
+Simulate  DB  failure  No  order  created,  no  shipping  info  
+Session  Expiry  
+Try  refreshing  final.php  after  logout  
+Redirect  to  login  or  show  error  
+          
+ 
+
+
+===== PAGE 28 =====
+ CONCLUSION   Bakezy  serves  as  an  efficient  and  user-friendly  e-commerce  platform  for  bakery  and  floral  
+products,
+ 
+offering
+ 
+customers
+ 
+a
+ 
+convenient
+ 
+way
+ 
+to
+ 
+explore
+ 
+and
+ 
+purchase
+ 
+items
+ 
+online.
+ 
+The
+ 
+system
+ 
+successfully
+ 
+integrates
+ 
+essential
+ 
+features
+ 
+such
+ 
+as
+ 
+user
+ 
+authentication,
+ 
+product
+ 
+catalog
+ 
+browsing,
+ 
+shopping
+ 
+cart
+ 
+management,
+ 
+wishlist
+ 
+functionality,
+ 
+and
+ 
+order
+ 
+processing
+ 
+within
+ 
+a
+ 
+single
+ 
+platform.
+ The  website  provides  a  smooth  and  intuitive  user  experience,  allowing  customers  to  easily  navigate  
+through
+ 
+a
+ 
+variety
+ 
+of
+ 
+cakes,
+ 
+pastries,
+ 
+and
+ 
+floral
+ 
+arrangements.
+ 
+By
+ 
+implementing
+ 
+a
+ 
+structured
+ 
+backend
+ 
+using
+ 
+PHP
+ 
+and
+ 
+a
+ 
+MySQL
+ 
+database,
+ 
+the
+ 
+system
+ 
+ensures
+ 
+reliable
+ 
+data
+ 
+storage
+ 
+and
+ 
+efficient
+ 
+processing
+ 
+of
+ 
+user
+ 
+and
+ 
+order
+ 
+information.
+ From  a  software  engineering  perspective,  the  project  demonstrates  key  principles  such  as  modular  
+design,
+ 
+proper
+ 
+data
+ 
+handling,
+ 
+and
+ 
+system
+ 
+integration.
+ 
+The
+ 
+inclusion
+ 
+of
+ 
+testing
+ 
+techniques
+ 
+like
+ 
+unit
+ 
+testing,
+ 
+integration
+ 
+testing,
+ 
+and
+ 
+boundary
+ 
+value
+ 
+analysis
+ 
+further
+ 
+enhances
+ 
+the
+ 
+reliability
+ 
+and
+ 
+robustness
+ 
+of
+ 
+the
+ 
+application.
+ Overall,   Bakezy  successfully  digitizes  the  traditional  bakery  and  floral  shopping  experience,  
+making
+ 
+it
+ 
+more
+ 
+accessible
+ 
+and
+ 
+convenient.
+ 
+The
+ 
+system
+ 
+can
+ 
+be
+ 
+further
+ 
+enhanced
+ 
+by
+ 
+integrating
+ 
+advanced
+ 
+features
+ 
+such
+ 
+as
+ 
+online
+ 
+payment
+ 
+gateways,
+ 
+real-time
+ 
+order
+ 
+tracking,
+ 
+and
+ 
+modern
+ 
+frontend
+ 
+frameworks,
+ 
+making
+ 
+it
+ 
+scalable
+ 
+for
+ 
+real-world
+ 
+deployment.
+ favourite  treats  and  flowers  effortless,  all  from  the  comfort  of  your  screen.  
+ 
