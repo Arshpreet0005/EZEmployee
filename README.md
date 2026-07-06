@@ -1,5 +1,7 @@
 # EZEmployee
 
+Live Demo: [EZEmployee AI · Streamlit](https://ezemployee.streamlit.app/)
+
 EZEmployee is an AI-powered HR dashboard built with Streamlit. It provides employee management, analytics, and reporting features using a CSV-backed dataset.
 
 ## Features
